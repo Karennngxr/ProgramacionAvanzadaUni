@@ -1,0 +1,299 @@
+Lo que escribi para que funcionara
+
+
+knmcc@Karen MINGW64 ~ (master)
+$ ls
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Plantillas@
+ README.md
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pseint/
+
+knmcc@Karen MINGW64 ~ (master)
+$ cd Desktop/
+
+knmcc@Karen MINGW64 ~/Desktop (master)
+$ cd Programación/
+
+knmcc@Karen MINGW64 ~/Desktop/Programación (master)
+$ cd 'Cuarto Semestre ProfeEder'/
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder (master)
+$ cd ProgramaciónAvanzadaUni/
+bash: cd: ProgramaciónAvanzadaUni/: No such file or directory
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder (master)
+$ ls
+'Clase UML - Trabajo en clase.pdf'             'Diagrama en blanco.pdf'
+'Diagrama en blanco - Página 1 (1).pdf'         ProgramacionAvanzadaUni/
+'Diagrama en blanco - Página 1.pdf'             Tareas/
+'Diagrama en blanco - Página 1_page-0001.jpg'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder (master)
+$ cd ProgramacionAvanzadaUni/
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (master)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (master)
+$ git branch -M main
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/master'.
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (main)
+$ git branch develop
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (main)
+$ git checkout develop
+Switched to branch 'develop'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (develop)
+$ git branch EjercicioPOOIPhones
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (develop)
+$ git checkout EjercicioPOOIPhones
+Switched to branch 'EjercicioPOOIPhones'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git push -u origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/Karennngxr/ProgramacionAvanzadaUni/pull/new/develop
+remote:
+To https://github.com/Karennngxr/ProgramacionAvanzadaUni.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git add inventario_1.py
+warning: in the working copy of 'Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/inventario_1.py', LF will be replaced by CRLF the next time Git touches it
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git add main_1.py
+warning: in the working copy of 'Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/main_1.py', LF will be replaced by CRLF the next time Git touches it
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git add producto_1.py
+warning: in the working copy of 'Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/producto_1.py', LF will be replaced by CRLF the next time Git touches it
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git commit -m "Agregué codigos de python del primer ejemplo que vemos de programacion en POO"
+[EjercicioPOOIPhones f9ecae4] Agregué codigos de python del primer ejemplo que vemos de programacion en POO
+ 3 files changed, 79 insertions(+)
+ create mode 100644 "Desktop/Programaci\303\263n/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/inventario_1.py"
+ create mode 100644 "Desktop/Programaci\303\263n/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/main_1.py"
+ create mode 100644 "Desktop/Programaci\303\263n/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/producto_1.py"
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git push -u origin EjercicioPOOOPhones
+error: src refspec EjercicioPOOOPhones does not match any
+error: failed to push some refs to 'https://github.com/Karennngxr/ProgramacionAvanzadaUni.git'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ^C
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git push -u origin EjercicioPOOIPhones
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.48 KiB | 755.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'EjercicioPOOIPhones' on GitHub by visiting:
+remote:      https://github.com/Karennngxr/ProgramacionAvanzadaUni/pull/new/EjercicioPOOIPhones
+remote:
+To https://github.com/Karennngxr/ProgramacionAvanzadaUni.git
+ * [new branch]      EjercicioPOOIPhones -> EjercicioPOOIPhones
+branch 'EjercicioPOOIPhones' set up to track 'origin/EjercicioPOOIPhones'.
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ls
+EjemploPrimerTarea.py         inventario_1.py  producto_1.py
+EjemploUnoPythonInstalled.py  main_1.py
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ python main_1.py
+Traceback (most recent call last):
+  File "C:\Users\knmcc\Desktop\Programaci▒n\Cuarto Semestre ProfeEder\ProgramacionAvanzadaUni\main_1.py", line 1, in <module>
+    from producto import Producto
+ModuleNotFoundError: No module named 'producto'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git push -u origin EjercicioPOOIPhones
+Everything up-to-date
+branch 'EjercicioPOOIPhones' set up to track 'origin/EjercicioPOOIPhones'.
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git add .
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git commit -m "Modifique los codigos de python antes agregados del primer ejemplo que vemos de programacion en POO"
+[EjercicioPOOIPhones 0b6df08] Modifique los codigos de python antes agregados del primer ejemplo que vemos de programacion en POO
+ 1 file changed, 10 insertions(+)
+ create mode 100644 "Desktop/Programaci\303\263n/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni/EjemploUnoPythonInstalled.py"
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git push -u origin EjercicioPOOOPhones                                       error: src refspec EjercicioPOOOPhones does not match any
+error: failed to push some refs to 'https://github.com/Karennngxr/ProgramacionAvanzadaUni.git'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ git push -u origin EjercicioPOOIPhones
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 579 bytes | 579.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Karennngxr/ProgramacionAvanzadaUni.git
+   f9ecae4..0b6df08  EjercicioPOOIPhones -> EjercicioPOOIPhones
+branch 'EjercicioPOOIPhones' set up to track 'origin/EjercicioPOOIPhones'.
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ls
+EjemploPrimerTarea.py         inventario_1.py  producto_1.py
+EjemploUnoPythonInstalled.py  main_1.py
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ python main_1.py
+Traceback (most recent call last):
+  File "C:\Users\knmcc\Desktop\Programaci▒n\Cuarto Semestre ProfeEder\ProgramacionAvanzadaUni\main_1.py", line 1, in <module>
+    from producto import Producto
+ModuleNotFoundError: No module named 'producto'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ^C
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ls
+EjemploPrimerTarea.py         inventario_1.py  producto1.py
+EjemploUnoPythonInstalled.py  main_1.py
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ python main_1.py
+Traceback (most recent call last):
+  File "C:\Users\knmcc\Desktop\Programaci▒n\Cuarto Semestre ProfeEder\ProgramacionAvanzadaUni\main_1.py", line 1, in <module>
+    from producto import Producto
+ModuleNotFoundError: No module named 'producto'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ls
+EjemploPrimerTarea.py         inventario_1.py  producto.py
+EjemploUnoPythonInstalled.py  main_1.py
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ python main_1.py
+Traceback (most recent call last):
+  File "C:\Users\knmcc\Desktop\Programaci▒n\Cuarto Semestre ProfeEder\ProgramacionAvanzadaUni\main_1.py", line 2, in <module>
+    from inventario import Inventario
+ModuleNotFoundError: No module named 'inventario'
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ ls
+EjemploPrimerTarea.py         __pycache__/   main.py
+EjemploUnoPythonInstalled.py  inventario.py  producto.py
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$ python main.py
+
+*** BIENVENIDO ***
+Opciones en el Sistema
+1. Registrar producto
+2. Eliminar producto
+3. Mostrar productos
+4. Salir
+Ingresa la opci▒n que deseas: 1
+Ingresa el id del producto: 5
+Ingresa el nombre del producto: IPhone 16
+Ingresa el precio del producto: 40000
+Ingresa la categor▒a del producto: Celular
+Ingresa el color del producto: Verde
+
+Producto agregado correctamente
+
+*** BIENVENIDO ***
+Opciones en el Sistema
+1. Registrar producto
+2. Eliminar producto
+3. Mostrar productos
+4. Salir
+Ingresa la opci▒n que deseas: 3
+
+----- Productos en el Sistema -----
+
+
+Id:  5
+Nombre:  IPhone 16
+Precio 40000
+Categoria:  Celular
+Color:  Verde
+
+*** BIENVENIDO ***
+Opciones en el Sistema
+1. Registrar producto
+2. Eliminar producto
+3. Mostrar productos
+4. Salir
+Ingresa la opci▒n que deseas: 2
+Ingresa el ID del producto a eliminar: 5
+
+Se elimin▒ el producto con el ID:  5
+Producto eliminado correctamente
+
+*** BIENVENIDO ***
+Opciones en el Sistema
+1. Registrar producto
+2. Eliminar producto
+3. Mostrar productos
+4. Salir
+Ingresa la opci▒n que deseas: 3
+
+----- Productos en el Sistema -----
+
+No existen productos en el sistema
+
+
+*** BIENVENIDO ***
+Opciones en el Sistema
+1. Registrar producto
+2. Eliminar producto
+3. Mostrar productos
+4. Salir
+Ingresa la opci▒n que deseas: 4
+
+Hasta luego
+
+knmcc@Karen MINGW64 ~/Desktop/Programación/Cuarto Semestre ProfeEder/ProgramacionAvanzadaUni (EjercicioPOOIPhones)
+$
